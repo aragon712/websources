@@ -1,6 +1,6 @@
 <?php
 /**
- * Template for Header
+ * Template for Footer
  *
  * NOTICE OF LICENSE
  *
