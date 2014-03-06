@@ -1,0 +1,1147 @@
+/*
+Theme Name: WebSources
+Theme URI: http://www.websources.it/wordpress-creare-child-template
+Description: Tema figlio di Twenty Fourteen che fornisce numerose funzionalità non presenti nel tema originale come ad esempio maggior controllo degli articoli in evidenza, supporto per una sidebar specifica per i dispositivi mobili, pulsante Scrool To Top ed altro.
+Author: Adriano Giovannini
+Author URI: http://www.webosurces.it
+Template: twentyfourteen
+Version: 1.0
+License: GPL v2+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: websources
+*/
+/***************************************************************************************************************************************************/
+/**
+ * Table of contents
+ *
+ * 1.0 Import parent css style
+ * 2.0 General Settings
+ *    2.1 Center Template on the screen and expand 100% wide
+ *    2.2 Show Author Name in home page
+ *    2.3 Disable Hyphenation
+ *    2.4 Set Generic icon
+ * 3.0 Advance Mobile Search Sidebar
+ *    3.1 Make room for the search toggle and site description in mobile sidebar 
+ *    3.2 Override Sidr Style For 2014 Search
+ *    3.3 Keep mobile toggle on the right and resize the genricon
+ *    3.4 Enhancing the topbar
+ *    3.5 Adjustments for the desktop topbar when screen is small
+ * 4.0 Add rule for Back To Top button
+ * 5.0 AudioTheme Template
+ *    5.1  Misc
+ *    5.2  General Audio Overrides
+ *    5.3  Audio Theme Gig
+ *    5.4  AudioTheme Record
+ *    5.5  Record Meta
+ *    5.6  Record Links
+ *    5.7  Tracklist
+ *    5.8  AudioTheme Track
+ *    5.9  AudioTheme Video
+ *    5.10 AudioTheme Archives
+ *    5.11 Gigs
+ *    5.12 Paging Navigation
+ *    5.13 Widgets
+ *    5.14 Widget Title Icons
+ *    5.15 Recent Gigs
+ *    5.16 Custom Icons
+ *    5.17 Media Queries
+ * 6.0 Featured Content
+ * 7.0 About Author
+ */
+/***************************************************************************************************************************************************/
+
+/**
+ * 1.0 Import parent style
+ *
+ * Import parent style.css from template Twenty Fourtenn
+ */
+@import url("../twentyfourteen/style.css");
+
+/***************************************************************************************************************************************************/
+
+/**
+ * 2.0 General Settings
+ */ 
+/**
+ * 2.1 Center Template on the screen and expand 100% wide
+ */
+.site-header,
+.site {
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+/** 
+ * 2.2 Show Author Name in home page
+ */
+.byline {
+	display: inline;
+}
+
+/**
+ * 2.3 Disable Hyphenation
+ */ 
+p, li {
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	-webkit-hyphens: none;
+	hyphens: none;
+	word-wrap: normal;
+}
+
+/**
+ * 2.4 Set Generic icon
+ */
+.genericon {
+        float:center;
+	font-size:1.5em;
+	color:#24890d
+}
+
+/***************************************************************************************************************************************************/
+
+/**
+ * 3.0 Advance mobile search sidebar 
+ */
+/**
+ * 3.1 Make room for the search toggle and site description in mobile sidebar 
+ */
+#slideout-top {
+        height:48px;
+}
+
+#slideout-top .site-description {
+        display: block;
+        text-align: left;
+        font-family: lato;
+        width: 205px;
+        overflow: hidden;
+}
+
+/**
+ * 3.2 Override Sidr Style For 2014 Search
+ */
+#slideout-top .search-toggle {
+        margin-right: 0;
+}
+
+#slideout-top .search-box .search-field  {
+        background-color: white;
+        color: black;
+}
+
+#menu-toggle {
+	float: right;
+	display: inline;
+}
+
+/**
+ * 3.3 Keep mobile toggle on the right and resize the genricon
+ */
+#menu-toggle .genericon {
+	font-size: 48px;
+	padding: 0 1em 0 0;
+        z-index: 999;
+}
+
+#big-top {
+        display: block; }
+
+#masthead {
+        height: 88px;
+        position: fixed;
+        top: 0;
+}
+
+.header-main {
+        display: inline;
+}
+
+.site-title{
+        margin: 0 0 0 20px;
+}
+
+nav#primary-navigation {
+        width: 100%;
+        display: block;
+        top: 40px;
+        left: 0px;
+        position: absolute;
+        padding-left: 30px; 
+}
+
+/**
+ * 3.4 Enhancing the topbar
+ */
+.topbar-description {
+        color: #fff;
+        display: inline;
+        font-weight: bold;
+        font-size: 100%;
+        text-transform: lowercase;
+        line-height: 50px;
+        vertical-align: baseline;
+        margin-left: 20px;
+        font-style: italic;
+}
+
+/** 
+ * 3.5 Adjustments for the desktop topbar when screen is small
+ */
+@media screen and (max-width: 768px) {
+        .search-toggle {
+                position: absolute;
+                top: -8px;
+                right: 0px;
+        }
+        #masthead {
+                height: 80px;
+        }
+        .topbar-menu {
+                display: block;
+                background-color: black;
+        }
+        .primary-navigation.toggled-on {
+                display: block;
+                padding: 48px 0 0 0px;
+                background-color: black;
+        }
+        .nav-toggled {
+                padding-top: 48px !important;
+                padding-left: 0px !important;
+        }
+        h2.topbar-description {
+                display:none;
+        }
+}
+
+/***************************************************************************************************************************************************/
+
+/**
+ * 4.0 Add rule for Back To Top dutton
+ */
+#scrollup {
+	width:40px;
+	height:40px;
+	opacity:0.3;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;
+	text-indent:-9999px;
+	/*background: url('../images/icon_top.png') no-repeat;*/
+	background: url('images/smooth/icon_top.png') no-repeat;
+	outline: none !important;
+}
+
+#scrollup:hover {
+	-webkit-transform: rotate(360deg) }
+	background: url('') no-repeat;
+}
+
+/***************************************************************************************************************************************************/
+
+
+/**
+ * 5.0 AudioTheme Template
+ */ 
+/**
+ * 5.1 Misc
+ */
+.site-navigation .highlight > a,
+.site-navigation .highlight.current_page_item > a,
+.site-navigation .highlight.current_page_ancestor > a,
+.site-navigation .highlight.current-menu-item > a,
+.site-navigation .highlight.current-menu-ancestor > a {
+	background-color: #24890d;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+/**
+ * 5.2 General AudioTheme Overrides
+ */
+
+body .audiotheme-video-single .audiotheme-video-title,
+body .audiotheme-record-single .audiotheme-record-header .audiotheme-record-title {
+	font-size: 33px;
+	font-weight: 300;
+	line-height: 1.0909090909;
+	margin-bottom: 12px;
+	margin: 0 0 12px 0;
+	text-transform: uppercase;
+}
+
+.site-content .audiotheme-record-links,
+.site-content .audiotheme-tracklist-section,
+.site-content .audiotheme-gig-single {
+	margin: 0 auto;
+	max-width: 474px;
+	background-color: #ffffff;
+	padding: 12px 10px 0;
+}
+
+body .audiotheme .audiotheme-gig-card,
+body .audiotheme .audiotheme-gig-single .audiotheme-gig-venue,
+body .audiotheme .audiotheme-gig-single .audiotheme-gig-description,
+body .audiotheme .audiotheme-meta-list,
+body .audiotheme .audiotheme-meta-list .audiotheme-meta-item,
+body .audiotheme .audiotheme-tracklist,
+body .audiotheme .audiotheme-tracklist .audiotheme-track,
+body .audiotheme .audiotheme-tracklist .audiotheme-track:before,
+body .audiotheme .audiotheme-tracklist .audiotheme-track .audiotheme-track-cell,
+body .content-sidebar .widget_audiotheme_upcoming_gigs dl {
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.featured-image a,
+.audiotheme-featured-image a,
+.audiotheme-record-artwork a {
+	background: #b2b2b2 url(../twentyfourteen/images/pattern-light.svg) repeat fixed;
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+.featured-image a:hover,
+.audiotheme-featured-image a:hover,
+.audiotheme-record-artwork a:hover {
+	background-color: #999999;
+}
+
+.featured-image a:hover img,
+.audiotheme-featured-image a:hover img,
+.audiotheme-record-artwork a:hover img {
+	opacity: 0.85;
+}
+
+/**
+ * 5.3 AudioTheme Gig
+ */
+
+body .audiotheme .audiotheme-gig-header .audiotheme-gig-title {
+	font-weight: 300;
+	clear: both;
+	margin-bottom: 12px;
+}
+
+body .audiotheme-gig-single .audiotheme-gig-header {
+	border-bottom: none;
+}
+
+body .audiotheme .audiotheme-gig-single dt,
+body .audiotheme .audiotheme-gig-single dd {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body .audiotheme-gig-date {
+	color: #767676;
+	font-size: 12px;
+	line-height: 1.3333333333;
+	text-transform: uppercase;
+}
+
+.audiotheme-gig-meta .audiotheme-label {
+	color: #767676;
+	display: block;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+body .audiotheme-gig-date strong {
+	font-weight: 400;
+}
+
+body .audiotheme .audiotheme-gig-single .entry-content {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+body.list-view .audiotheme-gigs .hentry.has-post-thumbnail {
+	padding-top: 15px;
+}
+
+.audiotheme-venue-map iframe {
+	margin-bottom: 10px;
+}
+
+.audiotheme-gig-tickets-link a {
+	display: inline-block;
+	color: #ffffff;
+	background-color: #24890d;
+	font-size: 12px;
+	padding: 5px 15px 4px;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+/**
+ * 5.4 AudioTheme Record
+ */
+
+body .audiotheme .audiotheme-record-single {
+	padding: 0;
+}
+
+body .audiotheme .audiotheme-record-single .audiotheme-record-artwork {
+	margin: 0;
+	width: auto;
+	max-width: 100%;
+	float: none;
+	clear: both;
+}
+
+/**
+ * 5.5 Record Meta 
+ */
+
+body .audiotheme .audiotheme-record-artist,
+body .audiotheme .audiotheme-record-single .audiotheme-record-meta {
+	clear: both;
+	margin: 0 auto 8px;
+	max-width: 474px;
+}
+
+body .audiotheme .audiotheme-record-single .audiotheme-record-meta {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+body .audiotheme .audiotheme-record-artist,
+body .audiotheme .audiotheme-record-single .audiotheme-record-meta,
+body .audiotheme .audiotheme-record-single .audiotheme-meta-item {
+	padding: 0;
+	color: #767676;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.3333333333;
+	text-transform: uppercase;
+}
+
+body .audiotheme-record-artist,
+body .audiotheme-record-meta {
+	display: inline-block;
+}
+
+body .audiotheme-record-single .audiotheme-record-header .audiotheme-record-artist,
+body .audiotheme .audiotheme-meta-item {
+	margin-right: 10px;
+}
+
+body .audiotheme .audiotheme-meta-item {
+	border: none;
+}
+
+body .audiotheme-record-single .audiotheme-label {
+	display: none;
+}
+
+/**
+ * 5.6 Record Links 
+ */
+
+body .audiotheme-record-links-list {
+	margin-top: 0;
+}
+
+body .audiotheme-record-links-list .audiotheme-record-links-item .audiotheme-record-link {
+	background: #000000;
+}
+
+body .audiotheme-record-links-list .audiotheme-record-links-item .audiotheme-record-link:hover {
+	color: #000000;
+	border-color: #000000;
+}
+
+/**
+ * 5.7 Tracklist 
+ */
+
+body .audiotheme-record-single .audiotheme-tracklist-title {
+	font-weight: 900;
+	line-height: 2;
+}
+
+body .audiotheme .audiotheme-tracklist {
+	margin-top: 20px;
+}
+
+body .audiotheme-tracklist .audiotheme-track .audiotheme-track-title {
+	font-weight: 400;
+}
+
+body .audiotheme .audiotheme-tracklist .audiotheme-track:before {
+	color: #767676;
+	border-right: none;
+	text-align: right;
+	width: 25px;
+	padding-right: 5px;
+}
+
+body .audiotheme .audiotheme-tracklist .audiotheme-track .audiotheme-track-meta .audiotheme-track-download-link {
+	margin: -2px 10px 0 0;
+}
+
+body .audiotheme-tracklist .audiotheme-track.is-playable:hover {
+	background: none;
+}
+
+body .audiotheme-tracklist .jplayer {
+	display: none;
+}
+
+/**
+ * 5.8 AudioTheme Track
+ */
+
+body .audiotheme .audiotheme-record-subtitle {
+	margin-bottom: 0;
+}
+
+body .audiotheme .audiotheme-record-subtitle a {
+	color: #2b2b2b;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.7142857142;
+	text-transform: none;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 11px 0 12px;
+	width: 100%;
+}
+
+body .audiotheme .audiotheme-record-subtitle a:before {
+	content: "Record";
+	color: #767676;
+	display: block;
+	font-size: 12px;
+	font-weight: 900;
+	line-height: 2;
+	text-transform: uppercase;
+}
+
+body .audiotheme .audiotheme-record-subtitle a:hover {
+	color: #41a62a;
+}
+
+/**
+ * 5.9 AudioTheme Video
+ */
+
+.audiotheme-video-single .audiotheme-term-list {
+	display: none;
+}
+
+.audiotheme-video-single.has-post-thumbnail .entry-header {
+	margin-top: -30px;
+}
+
+/**
+ * 5.10 AudioTheme Archives
+ */
+
+.archive .audiotheme .archive-title {
+	font-size: 16px;
+	font-weight: 900;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.archive .audiotheme .archive-intro {
+	color: #767676;
+	font-size: 14px;
+	line-height: 1.2857142857;
+	padding-top: 18px;
+}
+
+.archive .audiotheme .audiotheme-grid,
+.archive .audiotheme .audiotheme-gigs {
+	margin: 0 auto;
+	max-width: 474px;
+}
+
+.archive .audiotheme .audiotheme-grid .item {
+	width: 100%;
+	margin: 0 0 4%;
+}
+
+.list-view .audiotheme .hentry {
+	border-top: none;
+}
+
+.archive .audiotheme .entry-title a {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.3333333333;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.archive .audiotheme .entry-meta {
+	margin-bottom: 0;
+}
+
+/**
+ * 5.11 Gigs 
+ */
+
+.archive .audiotheme-gig-card .audiotheme-gig-title {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.3333333333;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.archive .audiotheme-gig-card .audiotheme-gig-details .audiotheme-gig-place .audiotheme-gig-venue,
+.archive .audiotheme-gig-note,
+.archive .audiotheme-gig-card .audiotheme-gig-meta-tickets .audiotheme-gig-tickets-price {
+	display: none;
+}
+
+.archive .audiotheme .audiotheme-gigs {
+	border-top: none;
+	margin-bottom: 48px;
+}
+
+.archive .audiotheme .audiotheme-gig-card .audiotheme-gig-meta-datetime {
+	padding: 0;
+}
+
+.archive .audiotheme .audiotheme-gig-card .audiotheme-gig-details {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.archive .audiotheme .audiotheme-gig-meta-tickets {
+	padding-bottom: 0;
+}
+
+.archive .audiotheme-gig-tickets-link a {
+	margin-top: 10px;
+}
+
+/**
+ * 5.12 Paging Navigation 
+ */
+
+body .audiotheme-paged-nav {
+	padding: 0;
+	margin: 48px 0;
+	border-top: 5px solid #000000;
+	border-bottom: none;
+	text-align: center;
+}
+
+body .audiotheme-paged-nav .audiotheme-paged-nav-prev,
+body .audiotheme-paged-nav .audiotheme-paged-nav-next {
+	float: none;
+	width: auto;
+	display: inline-block;
+	margin-top: -5px;
+}
+
+body .audiotheme-paged-nav a {
+	border-top: 5px solid transparent;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 900;
+	margin-right: 1px;
+	padding: 7px 16px;
+	text-transform: uppercase;
+	color: #2b2b2b;
+}
+
+body .audiotheme-paged-nav a:hover {
+	border-top: 5px solid #41a62a;
+	color: #2b2b2b;
+	text-decoration: none;
+}
+
+/**
+ * 5.13 Widgets
+ */
+
+.widget_audiotheme_record .featured-image,
+.widget_audiotheme_track .featured-image,
+.widget_audiotheme_video .featured-image {
+	margin-bottom: 0;
+}
+
+.widget_audiotheme_record .featured-image + p:not(.more),
+.widget_audiotheme_track .featured-image + p:not(.more),
+.widget_audiotheme_video .featured-image + p:not(.more) {
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 9px 0 0;
+}
+
+.content-sidebar .widget_audiotheme_record .featured-image + p:not(.more),
+.content-sidebar .widget_audiotheme_track .featured-image + p:not(.more),
+.content-sidebar .widget_audiotheme_video .featured-image + p:not(.more) {
+	margin-bottom: 18px;
+	padding-right: 10px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.content-sidebar .widget_audiotheme_record .more,
+.content-sidebar .widget_audiotheme_track .more,
+.content-sidebar .widget_audiotheme_video .more {
+	margin-top: 18px;
+}
+
+.content-sidebar .widget_audiotheme_record .more a,
+.content-sidebar .widget_audiotheme_track .more a,
+.content-sidebar .widget_audiotheme_video .more a {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/**
+ * 5.14 Widget Title Icons 
+ */
+
+.content-sidebar .widget_audiotheme_record .widget-title,
+.content-sidebar .widget_audiotheme_track .widget-title,
+.content-sidebar .widget_audiotheme_video .widget-title {
+	line-height: 1.2857142857;
+	padding-top: 1px;
+}
+
+.content-sidebar .widget_audiotheme_record .widget-title:before,
+.content-sidebar .widget_audiotheme_track .widget-title:before,
+.content-sidebar .widget_audiotheme_video .widget-title:before {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font: normal 16px/1 Genericons;
+	text-decoration: inherit;
+
+	background-color: #000000;
+	color: #ffffff;
+	margin: -1px 9px 0 0;
+	padding: 6px 0 9px;
+	text-align: center;
+	vertical-align: middle;
+	width: 36px;
+}
+
+.content-sidebar .widget_audiotheme_record .widget-title:before {
+	content: "\f109";
+}
+
+.content-sidebar .widget_audiotheme_track .widget-title:before {
+	content: "\f109";
+}
+
+.content-sidebar .widget_audiotheme_video .widget-title:before {
+	content: "\f104";
+}
+
+/**
+ * 5.15 Recent Gigs 
+ */
+
+.post-type-archive-audiotheme_gig .widget_audiotheme_upcoming_gigs {
+	display: none;
+}
+
+.post-type-archive-audiotheme_gig.date .widget_audiotheme_upcoming_gigs {
+	display: block;
+}
+
+.widget_audiotheme_upcoming_gigs dl {
+	margin-bottom: 6px;
+}
+
+.widget_audiotheme_upcoming_gigs dd {
+	display: none;
+}
+
+.widget_audiotheme_upcoming_gigs dd.location,
+.widget_audiotheme_upcoming_gigs dd.date {
+	display: block;
+	margin-bottom: 0;
+}
+
+.widget_audiotheme_upcoming_gigs dd.location {
+	font-style: italic;
+}
+
+.primary-sidebar .widget_audiotheme_upcoming_gigs .location a {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.content-sidebar .widget_audiotheme_upcoming_gigs dl {
+	margin-bottom: 0;
+	padding: 8px 0 9px;
+	border-bottom: 1px solid;
+}
+
+.content-sidebar .widget_audiotheme_upcoming_gigs dl:last-child {
+	border: none;
+}
+
+.widget_audiotheme_upcoming_gigs dt {
+	font-weight: 400;
+}
+
+.content-sidebar .widget_audiotheme_upcoming_gigs .location a {
+	color: #767676;
+}
+
+/**
+ * 5.16 Custom Icons
+ */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	font-family: 'Genericons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: inherit;
+	text-rendering: optimizeLegibility;
+}
+
+.icon a {
+	display: block;
+	vertical-align: middle;
+}
+
+.icon a:before {
+	font-size: 1.35em;
+	position: absolute;
+	font-family: 'Genericons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: inherit;
+	text-rendering: optimizeLegibility;
+}
+.icon a[href*="dribbble.com"]:before {
+	content: "\f201";
+}
+.icon a[href*="facebook.com"]:before {
+	content: "\f204";
+}
+.icon a[href*="/feed/"]:before,
+.icon-feed .icon:before {
+	content: "\f413";
+}
+.icon a[href*="flickr.com"]:before {
+	content: "\f211";
+}
+.icon a[href*="github.com"]:before {
+	content: "\f200";
+}
+.icon a[href*="plus.google.com"]:before {
+	content: "\f218";
+}
+.icon a[href*="instagram.com"]:before {
+	content: "\f215";
+}
+.icon a[href*="linked.in"]:before {
+	content: "\f207";
+}
+.icon a[href*="pinterest.com"]:before {
+	content: "\f209";
+}
+.icon a[href*="twitter.com"]:before {
+	content: "\f202";
+}
+.icon a[href*="vimeo.com"]:before {
+	content: "\f212";
+}
+.icon a[href*="wordpress.org"]:before,
+.icon a[href*="wordpress.com"]:before {
+	content: "\f205";
+}
+.icon a[href*="youtube.com"]:before {
+	content: "\f213";
+}
+.icon.envelope a:before {
+	content: "\f410";
+}
+
+.contributor .icon,
+.primary-navigation .icon {
+	position: relative;
+}
+
+.contributor .icon a,
+.primary-navigation .icon a {
+	padding-left: 0;
+	padding-right: 0;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.contributor .icon a:before,
+.primary-navigation .icon a:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	text-indent: 0;
+}
+
+.primary-navigation .icon a {
+	top: -1px;
+	width: 32px;
+	text-indent: 32px;
+}
+
+.primary-navigation .icon a:before {
+	width: 32px;
+	line-height: 48px;
+}
+
+.secondary-navigation .icon a:before {
+	top: 0;
+	right: 30px;
+	line-height: 36px;
+}
+
+.widget_nav_menu .icon a {
+	position: relative;
+	text-indent: 18px;
+}
+
+.widget_nav_menu .icon a:before {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	font-size: 1em;
+	text-indent: 0;
+}
+
+.contributor .icon {
+	display: inline-block;
+}
+
+.contributor .icon a,
+.contributor .icon a:before {
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+}
+
+.contributor .icon a {
+	background-color: #24890d;
+	border: 0;
+	border-radius: 2px;
+	color: #ffffff;
+	font-size: 12px;
+	text-indent: 36px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+.contributor .icon a:hover {
+	opacity: 0.82;
+	color: #ffffff;
+}
+
+.contributor .icon a:before {
+	font-size: 1.25em;
+}
+
+.contributor .icon-link a:before {
+	font-family: Genericons;
+	font-size: 2em;
+}
+
+.contributor .contributor-website-link:before {
+	content: "\f107";
+}
+
+.contributor .contributor-edit-link:before {
+	content: "\f411";
+}
+
+.contributor .icon .contributor-twitter-link {
+	background-color: #55acee;
+}
+
+.contributor .icon .contributor-facebook-link {
+	background-color: #3b5998;
+}
+
+.contributor .icon .contributor-website-link {
+	background-color: #000000;
+}
+
+.contributor .contributor-posts-link {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/**
+ * 5.17 Media Queries
+ */
+@media screen and (max-width: 400px) {
+	.archive .audiotheme .archive-header,
+	.archive .audiotheme .audiotheme-grid .item {
+		border-bottom: none;
+	}
+}
+
+@media screen and (min-width: 401px) {
+	.archive .audiotheme .audiotheme-grid,
+	.archive .audiotheme .audiotheme-gigs {
+		margin: 0 auto 60px;
+		padding: 0 10px;
+	}
+
+	.archive .audiotheme .audiotheme-grid .item-2np1,
+	.archive .audiotheme .audiotheme-grid .item-2n {
+		width: 46%;
+	}
+
+	.archive .audiotheme .audiotheme-grid .item-2np1 {
+		margin-right: 4%;
+	}
+
+	.archive .audiotheme .audiotheme-grid .item-2n {
+		margin-left: 4%;
+	}
+}
+
+@media screen and (min-width: 673px) {
+	.archive .audiotheme .audiotheme-grid,
+	.archive .audiotheme .audiotheme-gigs,
+	.site-content .audiotheme-gig-single,
+	.site-content .audiotheme-record-links,
+	.site-content .audiotheme-tracklist-section {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+
+@media screen and (min-width: 1040px) {
+	.archive .audiotheme .audiotheme-grid,
+	.archive .audiotheme .audiotheme-gigs,
+	.site-content .audiotheme-gig-single,
+	.site-content .audiotheme-record-links,
+	.site-content .audiotheme-tracklist-section {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media screen and (min-width: 1110px) {
+	.archive .audiotheme .audiotheme-grid,
+	.archive .audiotheme .audiotheme-gigs,
+	.site-content .audiotheme-gig-single,
+	.site-content .audiotheme-record-links,
+	.site-content .audiotheme-tracklist-section {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+}
+
+@media screen and (min-width: 1218px) {
+	.archive .audiotheme .audiotheme-grid,
+	.archive .audiotheme .audiotheme-gigs,
+	.site-content .audiotheme-gig-single,
+	.site-content .audiotheme-record-links,
+	.site-content .audiotheme-tracklist-section {
+		margin-right: 54px;
+	}
+
+	.full-width.archive .audiotheme .audiotheme-grid,
+	.full-width.archive .audiotheme .audiotheme-gigs,
+	.full-width .site-content .audiotheme-gig-single,
+	.full-width .site-content .audiotheme-record-links,
+	.full-width .site-content .audiotheme-tracklist-section {
+		margin-right: auto;
+	}
+}
+
+/***************************************************************************************************************************************************/
+
+/**
+ * 6.0 Featured Content
+ *
+ * Turn off images/pattern-dark.svg
+ */
+.featured-content {
+        background: #000;
+}
+
+/***************************************************************************************************************************************************/
+
+/**
+ * 7.0 Featured Content
+ *
+ * About Author
+ */
+#aboutauthor {
+        background:url( 'images/authorbio/aabbg.jpg' ) repeat;
+        width:600px;
+        margin:10px auto;
+        border-radius: 20px 20px 20px 20px;
+        height: auto;
+}
+
+.infoauthor {
+        float: center;
+        width: 600px;
+        height: auto;
+        padding-right: 0px !important;
+}
+
+.infoauthor img.gravatar {
+        margin: 10px 20px 0px 10px;
+        border-radius: 25px 25px 25px 25px;
+        display: inline;
+        float: left;
+        height: 120px;
+        width: 120px;
+        border: 0px solid #9d9d9d;
+        float: left;
+        float: left;
+}
+
+.infoauthor p.nameauthor { 
+        display: inline;
+        font-family: Verdana;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: none !important;
+        text-align: left;
+        text-shadow: 1px 1px 1px #fff;
+}
+
+.infoauthor p.description {
+        font-family: Verdana;
+        font-size: 12px;
+        text-align: left;
+        margin: 0 0 10px 10px;
+        text-shadow: 1px 1px 1px #fff;
+}
+

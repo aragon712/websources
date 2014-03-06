@@ -1,0 +1,729 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WebSources v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-03-06 01:27:50+0000\n"
+"Last-Translator: Adriano Giovannini <info@websources.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: functions.php:72
+#@ websources
+msgid "Mobile menu in left sidebar"
+msgstr "Menù mobile nella barra sinistra"
+
+#: functions.php:40
+#@ websources
+msgid "Mobile Sidebar"
+msgstr "Sidebar Mobile"
+
+#: functions.php:42
+#@ websources
+msgid "Slideout sidebar for mobile devices."
+msgstr "Slideout per dispositivi mobili"
+
+#: inc/theme-slider.php:51
+#@ websources
+msgid "Number of posts for grid"
+msgstr "Numero di post nella griglia"
+
+#: inc/theme-slider.php:57
+#@ websources
+msgid "Number of posts for slider"
+msgstr "Numero di post nello slider"
+
+#: inc/theme-slider.php:75
+#@ websources
+msgid "Layout for mobile device"
+msgstr "Layout per dispositivi mobili"
+
+#: functions.php:208
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:260
+#@ twentyfourteen
+msgid "Previous"
+msgstr "Precedente"
+
+#: functions.php:209
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:261
+#@ twentyfourteen
+msgid "Next"
+msgstr "Seguente"
+
+#: header.php:65
+#: header.php:104
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/header.php:53
+#@ twentyfourteen
+msgid "Skip to content"
+msgstr "Salta al contenuto"
+
+#: header.php:66
+#@ websources
+msgid "Click To Show Sidebar"
+msgstr "Clicca per mostrare la Sidebar"
+
+#: header.php:96
+#: sidebar.php:36
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/header.php:48
+#@ twentyfourteen
+msgid "Search"
+msgstr "Cerca"
+
+#: header.php:103
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/header.php:52
+#@ twentyfourteen
+msgid "Primary Menu"
+msgstr "Menù Primario"
+
+#: inc/theme-slider.php:80
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:51
+#@ twentyfourteen
+msgid "Grid"
+msgstr "Griglia"
+
+#: inc/theme-slider.php:81
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:52
+#@ twentyfourteen
+msgid "Slider"
+msgstr "Slider"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/404.php:16
+#@ twentyfourteen
+msgid "Not Found"
+msgstr "Non Trovato"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/404.php:20
+#@ twentyfourteen
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Sembra non ci siano risultati in questa posizione. Vuoi provare un'altra ricerca?"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/archive.php:32
+#, php-format
+#@ twentyfourteen
+msgid "Daily Archives: %s"
+msgstr "Archivio Giornaliero: %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/archive.php:35
+#, php-format
+#@ twentyfourteen
+msgid "Monthly Archives: %s"
+msgstr "Archivio Mensile: %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/archive.php:35
+#@ twentyfourteen
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/archive.php:38
+#, php-format
+#@ twentyfourteen
+msgid "Yearly Archives: %s"
+msgstr "Archivio Annuale: %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/archive.php:38
+#@ twentyfourteen
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/archive.php:41
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:51
+#@ twentyfourteen
+msgid "Archives"
+msgstr "Archivi"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/author.php:31
+#, php-format
+#@ twentyfourteen
+msgid "All posts by %s"
+msgstr "Tutti i post di %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/category.php:20
+#, php-format
+#@ twentyfourteen
+msgid "Category Archives: %s"
+msgstr "Archivio Categorie: %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:27
+#, php-format
+#@ twentyfourteen
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un pensiero su &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensieri su &ldquo;%2$s&rdquo;"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:34
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:52
+#@ twentyfourteen
+msgid "Comment navigation"
+msgstr "Navigazione nei Commenti"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:35
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:53
+#@ twentyfourteen
+msgid "&larr; Older Comments"
+msgstr "&larr; Vecchi Commenti"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:36
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:54
+#@ twentyfourteen
+msgid "Newer Comments &rarr;"
+msgstr "Nuovi Commenti &rarr;"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/comments.php:59
+#@ twentyfourteen
+msgid "Comments are closed."
+msgstr "I commenti sono chiusi"
+
+#: content-featured-post.php:34
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-featured-post.php:28
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:17
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:19
+#@ twentyfourteen
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:38
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:180
+#@ twentyfourteen
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:38
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:180
+#@ twentyfourteen
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:37
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:38
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:180
+#@ twentyfourteen
+msgid "% Comments"
+msgstr "% Commenti"
+
+#: inc/template-tags.php:130
+#: page-templates/full-sidebar.php:35
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-page.php:28
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:40
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:42
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/image.php:34
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/page-templates/contributors.php:35
+#@ twentyfourteen
+msgid "Edit"
+msgstr "Modifica"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:46
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:54
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:113
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:158
+#@ twentyfourteen
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua a leggere <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:157
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-aside.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-audio.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-gallery.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-image.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-link.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-page.php:22
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-quote.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-video.php:48
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content.php:56
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/image.php:54
+#@ twentyfourteen
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-none.php:12
+#@ twentyfourteen
+msgid "Nothing Found"
+msgstr "Non è stato trovato niente"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-none.php:18
+#, php-format
+#@ twentyfourteen
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto a pubblicare il tuo primo post? <a href=\"%1$s\">Inizia da qua</a>."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-none.php:22
+#@ twentyfourteen
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Spiacenti, non sono stati trovati risultati per i criteri di ricerca impostati. Per cortesia provare un'altra ricerca usando keyword differenti."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/content-none.php:27
+#@ twentyfourteen
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Non sembra sia stato trovato niente. Prova a cercare aiuto."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/footer.php:21
+#@ twentyfourteen
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/footer.php:21
+#, php-format
+#@ twentyfourteen
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:83
+#@ twentyfourteen
+msgid "Top primary menu"
+msgstr "Menù Primario Superiore"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:84
+#@ twentyfourteen
+msgid "Secondary menu in left sidebar"
+msgstr "Menà Secondario nella Sidebar Sinistra"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:175
+#@ twentyfourteen
+msgid "Primary Sidebar"
+msgstr "Sidebar Primaria"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:177
+#@ twentyfourteen
+msgid "Main sidebar that appears on the left."
+msgstr "La sidebar primaria appare sulla sinistra"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:184
+#@ twentyfourteen
+msgid "Content Sidebar"
+msgstr "Sidebar dei contenuti"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:186
+#@ twentyfourteen
+msgid "Additional sidebar that appears on the right."
+msgstr "La sidebar addizionale appare sulla destra"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:193
+#@ twentyfourteen
+msgid "Footer Widget Area"
+msgstr "Area Widget del Footer"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:195
+#@ twentyfourteen
+msgid "Appears in the footer section of the site."
+msgstr "Appare nella sezione footer del sito."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:217
+#@ twentyfourteen
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "su"
+
+#: inc/template-tags.php:103
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:384
+#, php-format
+#@ twentyfourteen
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] "%d Articolo"
+msgstr[1] "%d Articoli"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/functions.php:500
+#, php-format
+#@ twentyfourteen
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/image.php:65
+#@ twentyfourteen
+msgid "Previous Image"
+msgstr "Immagine Precedente"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/image.php:66
+#@ twentyfourteen
+msgid "Next Image"
+msgstr "Immagini Seguente"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/back-compat.php:41
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/back-compat.php:53
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/back-compat.php:68
+#, php-format
+#@ twentyfourteen
+msgid "Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Fourteen richiede l'ultima versione di WordPress o una versione superiore alla 3.6. Stai usando la versione %s. Per cortesia aggiorna la tua installazione."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:19
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:20
+#@ twentyfourteen
+msgid "Background may only be visible on wide screens."
+msgstr "Il background potrebbe essere visibile solo su schermi wide."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:28
+#@ twentyfourteen
+msgid "Site Title Color"
+msgstr "Colore Sito Titolo"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:31
+#@ twentyfourteen
+msgid "Display Site Title &amp; Tagline"
+msgstr "Mostra Titolo del Sito &amp; Tagline"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:35
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/featured-content.php:408
+#@ twentyfourteen
+msgid "Featured Content"
+msgstr "Contenuti in Evidenza"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:36
+#, php-format
+#@ twentyfourteen
+msgid "Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr "Usa un <a href=\"%1$s\">tag</a> per mettere in evidenza i tuoi post. Se nessun post ha un tag verranno mostrati quelli taggati come <a href=\"%2$s\">sticky </a>(sticcati)."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:47
+#@ twentyfourteen
+msgid "Layout"
+msgstr "Layout"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:98
+#@ twentyfourteen
+msgid "Twenty Fourteen"
+msgstr "Twenty Fourteen"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:101
+#, php-format
+#@ twentyfourteen
+msgid "The home page features your choice of up to 6 posts prominently displayed in a grid or slider, controlled by the <a href=\"%1$s\">featured</a> tag; you can change the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed instead."
+msgstr "La pagina iniziale mostra 6 post in evidenza disposti in griglia o in slider controllati dal tag di default <a href=\"%1$s\">featured</a> . Puoi modificare sia il tag che il layout andando in <a href=\"%2$s\">Aspetto &rarr; Personalizza</a>. Se in nessun post c'è il tag verranno mostrati i post catalogati come <a href=\"%3$s\">sticky </a>(sticcati)."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:102
+#, php-format
+#@ twentyfourteen
+msgid "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
+msgstr "Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like to stand out (also known as post thumbnails). This allows you to associate an image with your post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above the title&mdash;and in the Featured Content area on the home page."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/customizer.php:103
+#, php-format
+#@ twentyfourteen
+msgid "For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen documentation</a>."
+msgstr "Per altri tutorial e tips e tricks visita il sito <a href=\"%s\">Twenty Fourteen documentation</a>."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/featured-content.php:409
+#, php-format
+#@ twentyfourteen
+msgid "Use the <a href=\"%1$s\">\"featured\" tag</a> to feature your posts. You can change this to a tag of your choice; if no posts match the tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr "Usa un <a href=\"%1$s\">tag</a> per mettere in evidenza i tuoi post. Se nessun post ha un tag verranno mostrati quelli taggati come <a href=\"%2$s\">sticky </a>(sticcati)."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/featured-content.php:428
+#@ twentyfourteen
+msgid "Tag Name"
+msgstr "Nome del Tag"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/featured-content.php:433
+#@ twentyfourteen
+msgid "Don&rsquo;t display tag on front end."
+msgstr "Non mostrare il tag nel front end."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:47
+#@ twentyfourteen
+msgid "&larr; Previous"
+msgstr "&larr; Precedente"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:48
+#@ twentyfourteen
+msgid "Next &rarr;"
+msgstr "Seguente &rarr;"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:55
+#@ twentyfourteen
+msgid "Posts navigation"
+msgstr "Navigazione nei Post"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:84
+#@ twentyfourteen
+msgid "Post navigation"
+msgstr "Navigazione nei Post"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:88
+#, php-format
+#@ twentyfourteen
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr "<span class=\"meta-nav\">Pubblicato in</span>%title"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:90
+#, php-format
+#@ twentyfourteen
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr "<span class=\"meta-nav\">Post Precedente</span>%title"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:91
+#, php-format
+#@ twentyfourteen
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr "<span class=\"meta-nav\">Post Seguente</span>%title"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/template-tags.php:110
+#@ twentyfourteen
+msgid "Sticky"
+msgstr "Sticcati"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:44
+#@ twentyfourteen
+msgid "Twenty Fourteen Ephemera"
+msgstr "Effimeri di Twenty Fourteen"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:46
+#@ twentyfourteen
+msgid "Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts"
+msgstr "Usa questo widget per mostrare i contenuti recenti catalogati come Aside, Quote, Video, Audio, Immagini, Gallerie e collegarli ai post."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:53
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:30
+#@ twentyfourteen
+msgid "Asides"
+msgstr "Asides"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:54
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:33
+#@ twentyfourteen
+msgid "Images"
+msgstr "Immagini"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:55
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:36
+#@ twentyfourteen
+msgid "Videos"
+msgstr "Video"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:56
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:39
+#@ twentyfourteen
+msgid "Audio"
+msgstr "Audio"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:57
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:42
+#@ twentyfourteen
+msgid "Quotes"
+msgstr "Quotes"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:58
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:45
+#@ twentyfourteen
+msgid "Links"
+msgstr "Collegamenti"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:59
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/taxonomy-post_format.php:48
+#@ twentyfourteen
+msgid "Galleries"
+msgstr "Gallerie"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:148
+#, php-format
+#@ twentyfourteen
+msgid "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photo</a>."
+msgid_plural "This gallery contains <a href=\"%1$s\" rel=\"bookmark\">%2$s photos</a>."
+msgstr[0] "Questa galleria contiene <a href=\"%1$s\" rel=\"bookmark\">%2$s foto</a>."
+msgstr[1] "Questa galleria contiene <a href=\"%1$s\" rel=\"bookmark\">%2$s foto</a>."
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:189
+#, php-format
+#@ twentyfourteen
+msgid "More %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Altro %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:236
+#@ twentyfourteen
+msgid "Title:"
+msgstr "Titolo:"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:239
+#@ twentyfourteen
+msgid "Number of posts to show:"
+msgstr "Numero dei post da mostrare:"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/inc/widgets.php:242
+#@ twentyfourteen
+msgid "Post format to show:"
+msgstr "Formato dei post da mostrare"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/search.php:18
+#, php-format
+#@ twentyfourteen
+msgid "Search Results for: %s"
+msgstr "Cerca risultati per: %s"
+
+#: /home/morpheus/www/templatedeveloper/wp-content/themes/twentyfourteen/tag.php:22
+#, php-format
+#@ twentyfourteen
+msgid "Tag Archives: %s"
+msgstr "Archivio Tag: %s"
+
+#: inc/theme-slider.php:63
+#@ websources
+msgid "Speed of transition for slider (ms)"
+msgstr "Velocità di transizione dello slider (ms)"
+
+#: inc/theme-slider.php:69
+#@ websources
+msgid "Initial delay for slider (ms)"
+msgstr "Rirardo iniziale dello slider (ms)"
+
+#: inc/theme-title.php:40
+#@ websources
+msgid "Set Overall Header max-height (numbers only!) - Default is 240."
+msgstr "Imposta l'altezza generale dell'header (solo numeri). Predefinita é 240."
+
+#: inc/theme-title.php:50
+#@ websources
+msgid "Upload a logo"
+msgstr "Carica logo"
+
+#: inc/audiotheme/class.audiothemeloader.php:110
+#@ websources
+msgid "Activate now"
+msgstr "Attiva adesso"
+
+#: inc/audiotheme/class.audiothemeloader.php:112
+#@ websources
+msgid "Download Free Trial"
+msgstr "Download Free Trial"
+
+#: inc/audiotheme/class.audiothemeloader.php:115
+#@ websources
+msgid "Dismiss"
+msgstr "Chiudi"
+
+#: inc/template-tags.php:109
+#@ twentyfourteen
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/template-tags.php:116
+#@ twentyfourteen
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/template-tags.php:123
+#@ twentyfourteen
+msgid "Website"
+msgstr "Website"
+
+#: inc/audiotheme/class.audiothemeloader.php:107
+#@ websources
+msgid "WebSources is designed to integrate with the AudioTheme Framework plugin."
+msgstr "WebSources è progettato per integrare il plugin AudioTheme Framework"
+
+#: inc/theme-title.php:60
+#@ websources
+msgid "Footer Copyright Message"
+msgstr "Digita qua il messaggio personalizzato"
+
+#: inc/theme-title.php:67
+#@ websources
+msgid "Type your footer copyright"
+msgstr "Footer Copyright"
+
+#: inc/theme-author-bio.php:4
+#@ websources
+msgid "Website Title"
+msgstr "Titolo del Sito"
+
+#: inc/theme-author-bio.php:5
+#@ websources
+msgid "Google+ Profile"
+msgstr "Profilo Google+"
+
+#: inc/theme-author-bio.php:6
+#@ websources
+msgid "LinkedIn Profile"
+msgstr "Profilo Linkedin"
+
+#: inc/theme-author-bio.php:7
+#@ websources
+msgid "Twitter Profile"
+msgstr "Profilo Twitter"
+
+#: inc/theme-author-bio.php:8
+#@ websources
+msgid "Facebook Profile"
+msgstr "Profilo Facebook"
+
+#: inc/theme-author-bio.php:9
+#@ websources
+msgid "Pinterest Profile"
+msgstr "Profilo Pinterest"
+
+#: inc/theme-author-bio.php:10
+#@ websources
+msgid "YouTube Profile"
+msgstr "Profilo YouTube"
+
+#: inc/theme-author-bio.php:11
+#@ websources
+msgid "Flickr Profile"
+msgstr "Profilo Flickr"
+
+#: inc/theme-author-bio.php:12
+#@ websources
+msgid "StumbleUpon Profile"
+msgstr "Profilo StumbleUpon"
+
+#: inc/theme-author-bio.php:50
+#@ websources
+msgid "Website: &rarr;"
+msgstr "Sito Web: &rarr;"
+
+#: inc/theme-author-bio.php:54
+#@ websources
+msgid "Connect"
+msgstr "Condividi"
+
